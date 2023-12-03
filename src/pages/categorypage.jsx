@@ -2,12 +2,17 @@
 import BrowseHeader from "../components/browseheader";
 import Item from "../components/item";
 import Menubar from "../components/menubar";
+import Searchbar from "../components/searchbar";
 import {data} from '../productlist'
 
 export default function CategoryPage(props){
     return(
         <>
         <Menubar/>
+        <div className="sizedbox"></div>
+        <div className="searchbar_container">
+          <Searchbar class="lower_searchbar searchbar"/>
+        </div>
         <BrowseHeader text="Browse All" tag="promotional"/>
         <div className="wrapper">
             <div className="item_container">
