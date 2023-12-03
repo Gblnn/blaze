@@ -1,37 +1,37 @@
 export const data = [{
     "id": 1,
     "img": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/w_1920,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
-    "product_name": "Apple",
+    "product_name": "Macbook Air M2",
     "price": "$1.20"
   }, {
     "id": 2,
     "img": "https://images.inc.com/uploaded_files/image/1920x1080/getty_1208082286_427081.jpg",
-    "product_name": "Sony",
+    "product_name": "Macbook Air M1",
     "price": "$8.95"
   }, {
     "id": 3,
-    "img": "http://dummyimage.com/101x100.png/cc0000/ffffff",
-    "product_name": "Corsair",
+    "img": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW16TLP?ver=5c8b&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true",
+    "product_name": "Surface Go",
     "price": "$3.17"
   }, {
     "id": 4,
-    "img": "http://dummyimage.com/226x100.png/cc0000/ffffff",
-    "product_name": "Toshiba",
+    "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surfcae-laptops-models-hero-poster?scl=1",
+    "product_name": "Surface Studio",
     "price": "$6.25"
   }, {
     "id": 5,
-    "img": "http://dummyimage.com/202x100.png/ff4444/ffffff",
-    "product_name": "SteelSeries",
+    "img": "https://images.moneycontrol.com/static-mcnews/2021/10/Apple_MacBook-Pro_14-16-inch.jpg",
+    "product_name": "Macbook Pro M2",
     "price": "$2.97"
   }, {
     "id": 6,
-    "img": "http://dummyimage.com/141x100.png/5fa2dd/ffffff",
-    "product_name": "SteelSeries",
+    "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202203/Samsung_Galaxy_Book_2_Pro_laun.jpg?size=690:388",
+    "product_name": "Samsung Galaxy Book 2",
     "price": "$3.63"
   }, {
     "id": 7,
-    "img": "http://dummyimage.com/175x100.png/dddddd/000000",
-    "product_name": "SanDisk",
+    "img": "https://www.cnet.com/a/img/resize/5778e0266f117d25068f66fba310ee3ec1d9fe42/hub/2022/07/01/e319d1c0-b23c-497f-9711-e3a3ab225912/razer-blade-15-2022-updated-background.jpg?auto=webp&fit=crop&height=360&width=640",
+    "product_name": "Razer Blade 15",
     "price": "$1.17"
   }, {
     "id": 8,
