@@ -2,42 +2,59 @@ export const data = [{
     "id": 1,
     "img": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/w_1920,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
     "product_name": "Macbook Air M2",
-    "price": "$1.20"
+    "price": "$1.20",
+    "rating": 4.6,
+    "count" : "999+"
+
   }, {
     "id": 2,
     "img": "https://images.inc.com/uploaded_files/image/1920x1080/getty_1208082286_427081.jpg",
     "product_name": "Macbook Air M1",
-    "price": "$8.95"
+    "price": "$8.95",
+    "rating": 4.5,
+    "count" : "805"
   }, {
     "id": 3,
     "img": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW16TLP?ver=5c8b&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true",
     "product_name": "Surface Go",
-    "price": "$3.17"
+    "price": "$3.17",
+    "rating": 3.7,
+    "count" : "707"
   }, {
     "id": 4,
     "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surfcae-laptops-models-hero-poster?scl=1",
     "product_name": "Surface Studio",
-    "price": "$6.25"
+    "price": "$6.25",
+    "rating": 3.9,
+    "count" : "501"
   }, {
     "id": 5,
     "img": "https://images.moneycontrol.com/static-mcnews/2021/10/Apple_MacBook-Pro_14-16-inch.jpg",
     "product_name": "Macbook Pro M2",
-    "price": "$2.97"
+    "price": "$2.97",
+    "rating": 3.8,
+    "count" : "775"
   }, {
     "id": 6,
     "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202203/Samsung_Galaxy_Book_2_Pro_laun.jpg?size=690:388",
     "product_name": "Samsung Galaxy Book 2",
-    "price": "$3.63"
+    "price": "$3.63",
+    "rating": 3.5,
+    "count" : "805"
   }, {
     "id": 7,
     "img": "https://www.cnet.com/a/img/resize/5778e0266f117d25068f66fba310ee3ec1d9fe42/hub/2022/07/01/e319d1c0-b23c-497f-9711-e3a3ab225912/razer-blade-15-2022-updated-background.jpg?auto=webp&fit=crop&height=360&width=640",
     "product_name": "Razer Blade 15",
-    "price": "$1.17"
+    "price": "$1.17",
+    "rating": 4.5,
+    "count" : "999+"
   }, {
     "id": 8,
-    "img": "http://dummyimage.com/103x100.png/dddddd/000000",
-    "product_name": "Dell",
-    "price": "$6.77"
+    "img": "https://c.s-microsoft.com/en-us/CMSImages/Laptops_509x303.jpg?version=392c511a-f1de-c303-d623-5dd518c6cd5a",
+    "product_name": "Microsoft Surface Studio",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998"
   }, {
     "id": 9,
     "img": "http://dummyimage.com/137x100.png/cc0000/ffffff",

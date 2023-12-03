@@ -18,7 +18,7 @@ export default function Item(props){
                 </div>
               </div>
               <div className='item_row'>
-                <p className="item_desc">{props.review}</p>
+                <p className="tag">{props.review}</p>
                 <div className="price">
                 <p className='item_desc'>{props.count}</p>
                 </div>
