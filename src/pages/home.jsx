@@ -17,7 +17,7 @@ export default function Home(){
           <Heading text = "Discover" tag="Black Friday Sales"/>
           <div className="wrapper">
             <div className="item_container">
-              <Item img="/laptops.png" name = "Laptops" offer = "70% Off"/>  
+              <Item img="/laptops.png" name = "Laptops" offer = "70% Off" item_page="/category"/>  
               <Item img="/smartphones.jpg" name = "Smartphones" offer = "50% Off"/>  
               <Item img="/shoes.jpg" name = "Shoes" offer = "40% Off"/>  
               <Item img="/clothing.jpg" name = "Clothing" offer = "60% Off"/>
@@ -31,7 +31,16 @@ export default function Home(){
               <Item img="/jackets.png" name = "Jackets" offer = ""/>   
               <Item img="/perfumes.jpg" name = "Perfumes" offer = ""/>
               <Item img="/accessories.jpg" name = "Accessories" offer = ""/>   
-              
+            </div>
+          </div>
+          
+          <Heading text = "Best Sellers" tag=""/>
+          <div className="wrapper">
+            <div className="item_container">
+              <Item img="/decoratives.jpeg" name = "Decoratives" offer = ""/>
+              <Item img="/jackets.png" name = "Jackets" offer = ""/>   
+              <Item img="/perfumes.jpg" name = "Perfumes" offer = ""/>
+              <Item img="/accessories.jpg" name = "Accessories" offer = ""/>   
             </div>
           </div>
         </main>

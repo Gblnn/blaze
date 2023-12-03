@@ -75,7 +75,7 @@
     top:4.5rem;
     right: 0;
     margin-right: 1rem;
-    background-color: #1a1a1a;
+    background-color: var(--background);
     width:15rem;
     box-shadow: 1px 1px 20px black ;
     display: flex;
@@ -85,6 +85,7 @@
 }
 
 .menu_text{
+    color: var(--clr);
     display: block;
     font-size: 1rem;
     width: 12rem;
@@ -98,7 +99,7 @@
     
 }
 .menu_item:hover{
-    background-color: #2a2a2a;
+    background-color: var(--item-hover);
 }
 
 .nav_item{

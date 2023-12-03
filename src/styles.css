@@ -20,7 +20,7 @@
     --background: rgb(246, 246, 246);;
     --clr:black;
     --header-bg:white;
-    --searchbar-bg:rgba(230, 230, 230, 0.75);
+    --searchbar-bg:rgb(230, 230, 230);
     --clr-light:rgb(223, 223, 223);
     --clr-dark: rgba(230, 230, 230, 0.75);
     --item-hover: #eaeaea;
