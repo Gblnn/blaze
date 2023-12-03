@@ -80,7 +80,6 @@
     box-shadow: 1px 1px 20px black ;
     display: flex;
     flex-direction: column;
-    display: none;
     transition: 0.3s;
     border-radius: 0.5rem;
 }
@@ -326,10 +325,6 @@
     height: 1.5rem;
     padding: 1rem;
     transition: 0.3s;
-}
-
-.item_box_footer:hover{
-    background-color: rgb(230, 230, 230);
 }
 
 .item_name{

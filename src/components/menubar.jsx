@@ -4,8 +4,10 @@ import Searchbar from './searchbar'
 import TitleMenu from './titlemenu'
 import Title from './title'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 export default function Menubar(){
+    const [show, setShow] = useState(false)
     return(
         <>
         <header>
@@ -22,15 +24,14 @@ export default function Menubar(){
                         </Link>
                     </button>
 
-                    <button id="menu_btn" className="cart_btn">
+                    <button className="cart_btn" onClick={()=>setShow(!show)}>
                     <svg className="cart_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
                         <path fill-rule="evenodd" d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" clip-rule="evenodd" />
                     </svg>
                     </button>
-
-                    <TitleMenu/>
-
-                
+                    {
+                        show? <TitleMenu/> : null
+                    }
                 </div>
             </div>
         </header>
