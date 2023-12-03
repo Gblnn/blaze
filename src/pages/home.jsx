@@ -9,6 +9,7 @@ export default function Home(){
     return(
         <>
         <Menubar/>
+        <div className="sizedbox"></div>
         <div className="searchbar_container">
           <Searchbar class="lower_searchbar searchbar"/>
         </div>
@@ -22,13 +23,15 @@ export default function Home(){
               <Item img="/clothing.jpg" name = "Clothing" offer = "60% Off"/>
             </div>
           </div>
+          <div className="sizedbox"></div>
           <Heading text = "Explore" tag=""/>
           <div className="wrapper">
             <div className="item_container">
-              <Item img="/decoratives.jpeg" name = "Decoratives" offer = ""/>  
-              <Item img="/accessories.jpg" name = "Accessories" offer = ""/>  
-              <Item img="/perfumes.jpg" name = "Perfumes" offer = ""/>  
-              <Item img="/jackets.png" name = "Jackets" offer = ""/>
+              <Item img="/decoratives.jpeg" name = "Decoratives" offer = ""/>
+              <Item img="/jackets.png" name = "Jackets" offer = ""/>   
+              <Item img="/perfumes.jpg" name = "Perfumes" offer = ""/>
+              <Item img="/accessories.jpg" name = "Accessories" offer = ""/>   
+              
             </div>
           </div>
         </main>

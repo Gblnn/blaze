@@ -6,7 +6,7 @@
   }
   
   :root{
-    color-scheme: dark;
+    color-scheme: light;
     --clr-dark: #020617;
     --clr-light: #f1f5f9;
     --clr-slate400: #94a3b8;
@@ -20,7 +20,7 @@
     --background: rgb(246, 246, 246);;
     --clr:black;
     --header-bg:white;
-    --searchbar-bg:rgb(216, 215, 215);
+    --searchbar-bg:rgba(230, 230, 230, 0.75);
     --clr-light:rgb(223, 223, 223);
     --clr-dark: rgba(230, 230, 230, 0.75);
     --item-hover: #eaeaea;
@@ -86,7 +86,11 @@
     }
   
   @media(prefers-color-scheme: dark ) {
+    :root{
+      color-scheme: dark;
+    }
     body{
+      
       --background: black;
       --clr:white;
       --header-bg: #1a1a1a;
