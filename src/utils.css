@@ -77,7 +77,6 @@
     margin-right: 1rem;
     background-color: #1a1a1a;
     width:15rem;
-
     box-shadow: 1px 1px 20px black ;
     display: flex;
     flex-direction: column;
@@ -250,6 +249,7 @@
 }
 .items_heading{
     padding: 1.5rem;
+    margin-left: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -260,8 +260,8 @@
     border-radius: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    padding-top: 0.15rem;
-    padding-bottom: 0.15rem;
+    /* padding-top: 0.15rem;
+    padding-bottom: 0.15rem; */
     font-weight: 500;
     user-select: none;
     transition: 0.3s;
@@ -278,8 +278,6 @@
     border-radius: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    padding-top: 0.15rem;
-    padding-bottom: 0.15rem;
     font-weight: 500;
     user-select: none;
     transition: 0.3s;
