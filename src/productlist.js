@@ -1,11 +1,11 @@
 export const data = [{
     "id": 1,
-    "img": "http://dummyimage.com/210x100.png/ff4444/ffffff",
+    "img": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/w_1920,c_limit/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
     "product_name": "Apple",
     "price": "$1.20"
   }, {
     "id": 2,
-    "img": "http://dummyimage.com/110x100.png/dddddd/000000",
+    "img": "https://images.inc.com/uploaded_files/image/1920x1080/getty_1208082286_427081.jpg",
     "product_name": "Sony",
     "price": "$8.95"
   }, {

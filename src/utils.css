@@ -360,7 +360,6 @@
 .price{
     display: flex;
     align-items: center;
-    gap: 1rem;
 }
 
 .item_price{
