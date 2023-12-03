@@ -16,19 +16,19 @@ export default function Home(){
           <Heading text = "Discover" tag="Black Friday Sales"/>
           <div className="wrapper">
             <div className="item_container">
-              <Item name = "Laptops" offer = "70% Off"/>  
-              <Item name = "Smartphones" offer = "50% Off"/>  
-              <Item name = "Shoes" offer = "40% Off"/>  
-              <Item name = "Clothing" offer = "60% Off"/>
+              <Item img="/laptops.png" name = "Laptops" offer = "70% Off"/>  
+              <Item img="/smartphones.jpg" name = "Smartphones" offer = "50% Off"/>  
+              <Item img="/shoes.jpg" name = "Shoes" offer = "40% Off"/>  
+              <Item img="/clothing.jpg" name = "Clothing" offer = "60% Off"/>
             </div>
           </div>
           <Heading text = "Explore" tag=""/>
           <div className="wrapper">
             <div className="item_container">
-              <Item name = "Accessories" offer = ""/>  
-              <Item name = "Decoratives" offer = ""/>  
-              <Item name = "Perfumes" offer = ""/>  
-              <Item name = "Jackets" offer = ""/>
+              <Item img="/decoratives.jpeg" name = "Decoratives" offer = ""/>  
+              <Item img="/accessories.jpg" name = "Accessories" offer = ""/>  
+              <Item img="/perfumes.jpg" name = "Perfumes" offer = ""/>  
+              <Item img="/jackets.png" name = "Jackets" offer = ""/>
             </div>
           </div>
         </main>

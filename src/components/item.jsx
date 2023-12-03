@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom'
 import '../utils.css'
 
 export default function Item(props){
     return(
         <>
+        <Link to={props.item_page}>
         <div className="item_box">
             <div className="item_img_container">
-              {/* <img/> */}
+              <img className='item_img' src={props.img}/>
             </div>
             <div className="item_box_footer">
               <h1 className="item_name">{props.name}</h1>
@@ -14,6 +16,8 @@ export default function Item(props){
               </div>
             </div>
           </div>
+        </Link>
+        
         </>
     )
 }
