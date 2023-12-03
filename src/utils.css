@@ -255,6 +255,30 @@
     gap: 1rem;
 }
 
+.browse_header{
+    padding: 1.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid ; */
+    gap: 1rem;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid ; */
+    gap: 1rem;
+    margin-right: 4rem;
+}
+
 .offer_tag{
     background-color: crimson;
     border-radius: 1rem;
@@ -400,8 +424,10 @@
 
 
     .item_container{
-        justify-content: center;
-        /* margin-left: 1.5rem; */
+        justify-content: flex-start;
+    }
+    .wrapper{
+        margin-left: 2.5rem;
     }
     /* .item_box{
         padding: 10rem;
