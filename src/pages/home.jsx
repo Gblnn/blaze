@@ -33,7 +33,7 @@ export default function Home(){
               <Item img="/accessories.jpg" name = "Accessories" offer = ""/>   
             </div>
           </div>
-          
+          <div className="sizedbox"></div>
           <Heading text = "Best Sellers" tag=""/>
           <div className="wrapper">
             <div className="item_container">

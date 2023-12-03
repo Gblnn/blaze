@@ -276,7 +276,7 @@
     align-items: center;
     /* border: 1px solid ; */
     gap: 1rem;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 .offer_tag{
@@ -370,7 +370,7 @@
 }
 
 .sizedbox{
-    height: 1rem;
+    height: 2rem;
     display: block;
 }
 
@@ -416,6 +416,9 @@
     }
     .sizedbox{
         display: none;
+    }
+    .filters{
+        margin-right: 4rem;
     }
     
 }
