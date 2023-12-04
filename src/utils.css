@@ -297,11 +297,15 @@
 
 .filter_btn{
     background-color: var(--clr-dark);
-    color: var(--clr);
+    
     padding: 0.5rem;
     border-radius: 0.5rem;
     transition: 0.3s;
     cursor: pointer;
+}
+
+p{
+    color: var(--clr);
 }
 
 .filter_btn:hover{
