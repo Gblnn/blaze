@@ -32,6 +32,7 @@
     fill: tomato;
     border-radius: 0.5rem;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .title_logo:hover{
