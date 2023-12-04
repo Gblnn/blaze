@@ -17,7 +17,7 @@ export default function Item(props){
                 <h1 className="item_name">{props.name}</h1>
                 <div className="price">
                 <p className="offer_tag">{props.offer}</p>
-                <p className=''>{props.price}</p>
+                <p className='price'>{props.price}</p>
                 </div>
               </div>
               <div className='item_row'>
