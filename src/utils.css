@@ -324,6 +324,10 @@ p{
     transition: 0.3s;
 }
 
+.offer_tag p{
+    color: white;
+}
+
 .offer_tag:hover{
     background-color: maroon;
 }
