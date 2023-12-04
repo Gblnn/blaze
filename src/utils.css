@@ -295,6 +295,18 @@
     user-select: none;
 }
 
+.filter_btn{
+    background-color: var(--clr-dark);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.filter_btn:hover{
+    background-color: var(--item-hover);
+}
+
 .offer_tag{
     background-color: crimson;
     border-radius: 1rem;

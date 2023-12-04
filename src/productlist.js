@@ -5,7 +5,7 @@ export const data = [{
     "price": "$1.20",
     "rating": 4.6,
     "count" : "999+",
-    "keywords":"Apple Laptop Macbook Air M2"
+    "keywords":"Apple Laptops Macbook Air M2"
 
   }, {
     "id": 2,
@@ -14,7 +14,7 @@ export const data = [{
     "price": "$8.95",
     "rating": 4.5,
     "count" : "805",
-    "keywords":"Apple Laptop Macbook Air M1"
+    "keywords":"Apple Laptops Macbook Air M1"
   }, {
     "id": 3,
     "img": "https://assets.mmsrg.com/isr/166325/c1/-/ms-cms-mmch-l16882484/feecms_x_x_x",
@@ -22,7 +22,7 @@ export const data = [{
     "price": "$3.17",
     "rating": 3.7,
     "count" : "707",
-    "keywords":"Laptop Microsoft Surface Go"
+    "keywords":"Laptops Microsoft Surface Go"
   }, {
     "id": 4,
     "img": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW16TLP?ver=5c8b&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true",
@@ -30,7 +30,7 @@ export const data = [{
     "price": "$6.25",
     "rating": 3.9,
     "count" : "501",
-    "keywords":"Laptop Microsoft Surface Studio"
+    "keywords":"Laptops Microsoft Surface Studio"
   }, {
     "id": 5,
     "img": "https://images.moneycontrol.com/static-mcnews/2021/10/Apple_MacBook-Pro_14-16-inch.jpg",
@@ -38,7 +38,7 @@ export const data = [{
     "price": "$2.97",
     "rating": 3.8,
     "count" : "775",
-    "keywords":"Apple Laptop Macbook Pro M2"
+    "keywords":"Apple Laptops Macbook Pro M2"
   }, {
     "id": 6,
     "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202203/Samsung_Galaxy_Book_2_Pro_laun.jpg?size=690:388",
@@ -46,7 +46,7 @@ export const data = [{
     "price": "$3.63",
     "rating": 3.5,
     "count" : "805",
-    "keywords":"Laptop Samsung Galaxy Book 2"
+    "keywords":"Laptops Samsung Galaxy Book 2"
   }, {
     "id": 7,
     "img": "https://www.cnet.com/a/img/resize/5778e0266f117d25068f66fba310ee3ec1d9fe42/hub/2022/07/01/e319d1c0-b23c-497f-9711-e3a3ab225912/razer-blade-15-2022-updated-background.jpg?auto=webp&fit=crop&height=360&width=640",
@@ -54,7 +54,7 @@ export const data = [{
     "price": "$1.17",
     "rating": 4.5,
     "count" : "999+",
-    "keywords":"Laptop Razer Blade 15"
+    "keywords":"Laptops Razer Blade 15"
   }, {
     "id": 8,
     "img": "https://c.s-microsoft.com/en-us/CMSImages/Laptops_509x303.jpg?version=392c511a-f1de-c303-d623-5dd518c6cd5a",
@@ -62,7 +62,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Laptop Microsoft Surface Studio"
+    "keywords":"Laptops Microsoft Surface Studio"
   },
   {
     "id": 9,
@@ -71,17 +71,17 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Laptop Huawei Matebook 16s"
+    "keywords":"Laptops Huawei Matebook 16s"
   },
-  {
-    "id": 10,
-    "img": "https://pics.computerbase.de/9/7/5/0/7-2a65152503cb54e4/1-1080.bfb7b19d.png",
-    "product_name": "Framework Laptop",
-    "price": "$6.77",
-    "rating": 4.2,
-    "count" : "998",
-    "keywords":"Laptop Framework Laptop"
-  },
+  // {
+  //   "id": 10,
+  //   "img": "https://pics.computerbase.de/9/7/5/0/7-2a65152503cb54e4/1-1080.bfb7b19d.png",
+  //   "product_name": "Framework Laptop",
+  //   "price": "$6.77",
+  //   "rating": 4.2,
+  //   "count" : "998",
+  //   "keywords":"Laptops Framework Laptop"
+  // },
   {
     "id": 11,
     "img": "https://hips.hearstapps.com/hmg-prod/images/best-touchscreen-laptops-1661789099.jpg",
@@ -89,7 +89,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Laptop Microsoft Surface Studio Go"
+    "keywords":"Laptops Microsoft Surface Studio Go"
   },
   {
     "id": 12,
@@ -98,7 +98,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Laptop Asus Zephyrus Z15"
+    "keywords":"Laptops Asus Zephyrus Z15"
   },
   {
     "id": 13,
@@ -107,7 +107,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Smartphone Samsung A15"
+    "keywords":"Smartphones Samsung A15"
   },
   {
     "id": 14,
@@ -116,7 +116,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Apple iPhone 15 Pro"
+    "keywords":"Apple iPhones 15 Pro"
   },
   {
     "id": 15,
@@ -125,7 +125,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Apple iPhone"
+    "keywords":"Apple iPhones"
   },
   {
     "id": 16,
@@ -134,7 +134,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Apple iPhone 14 Pro"
+    "keywords":"Apple iPhones 14 Pro"
   },
   {
     "id": 17,
@@ -143,6 +143,25 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Apple Macbook Pro"
-  }
+    "keywords":"Apple Laptops Macbook Pro"
+  },
+  {
+    "id": 18,
+    "img": "https://media.wired.com/photos/5f3b090391d87e6680b809ab/191:100/w_1280,c_limit/Gear-Samsung-Galaxy-Note-20-Ultra-SOURCE-Samsung.jpg",
+    "product_name": "Samsung Galaxy Note 20",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Smartphones Samsung Galaxy Note 20"
+  },
+  {
+    "id": 19,
+    "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/img_4235_1-sixteen_nine.jpg?VersionId=ic_cEg1lryVOHYBK10KThLwX8k5MxN03&size=690:388",
+    "product_name": "Samsung Galaxy S23",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Smartphones Samsung Galaxy S23"
+  },
+
 ]

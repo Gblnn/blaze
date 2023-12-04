@@ -6,20 +6,22 @@ import Searchbar from '../components/searchbar'
 import Heading from '../components/heading'
 import CategoryPage from './categorypage'
 
+
 export default function Home(){
+
     return(
         <>
         <Menubar/>
         <div className="sizedbox"></div>
         <div className="searchbar_container">
-          <Searchbar classtype="lower_searchbar searchbar"/>
+          <Searchbar id="lower" classtype="lower_searchbar searchbar"/>
         </div>
         <main>
           <Heading text = "Discover" tag="Black Friday Sales"/>
           <div className="wrapper">
             <div className="item_container">
-              <Item img="/laptops.png" name = "Laptops" offer = "70% Off" item_page="/category"/>  
-              <Item img="/smartphones.jpg" name = "Smartphones" offer = "50% Off"/>  
+              <Item img="/laptops.png" name = "Laptops" offer = "70% Off" item_page="/category" clickFunction={()=>{}}/>  
+              <Item img="/smartphones.jpg" name = "Smartphones" offer = "50% Off" item_page="/category"/>  
               <Item img="/shoes.jpg" name = "Shoes" offer = "40% Off"/>  
               <Item img="/clothing.jpg" name = "Clothing" offer = "60% Off"/>
             </div>

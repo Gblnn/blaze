@@ -18,7 +18,10 @@ export default function BrowseHeader(props){
                 <p className="tag">{props.tag}</p>
             </div>
             <div className='filters'>
-                <p>Sort by</p>
+                <button className='filter_btn' onClick={props.click}>
+                <p>{props.btn_text}</p>
+                </button>
+                
             </div>
           </div>
         </>

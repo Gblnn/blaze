@@ -6,24 +6,29 @@ import Menubar from "../components/menubar";
 import Searchbar from "../components/searchbar";
 import {data} from '../productlist'
 
+
 export default function CategoryPage(){
-  const [search, setSearch] = useState('')
-  console.log(search)
+  let [search, setSearch] = useState('')
+  let [category, setCategory] = useState('Laptops')
+  let [toggle, setToggle] = useState(true)
     return(
         <>
         <Menubar searchbarOnChange={(e)=>setSearch(e.target.value)}/>
         <div className="sizedbox"></div>
         <div className="searchbar_container">
-          <Searchbar onChange={(e)=>setSearch(e.target.value)} classtype="lower_searchbar searchbar"/>
+          <Searchbar id="lower" onChange={(e)=>setSearch(e.target.value)} classtype="lower_searchbar searchbar"/>
         </div>
-        <BrowseHeader text="Browse All" tag=""/>
+        <BrowseHeader click={()=>{toggle?setToggle(false):setToggle(true); toggle?setCategory('Phones'):setCategory('Laptops')}} text="Browse All" tag="" btn_text={category}/>
         <div className="wrapper">
             <div className="item_container">
               
               {data.filter((item)=>{
-                return search.toLowerCase() === '' ? item : item.keywords.toLowerCase().includes(search.toLowerCase())
+                return search.toLowerCase() === '' ? 
+                item.keywords.toLowerCase().includes(category.toLowerCase())
+                 : 
+                 item.keywords.toLowerCase().includes(search.toLowerCase())
               }).map((item) => (
-              <Item key={item.id} img ={item.img} name={item.product_name} price={item.price} review={item.rating} count={item.count}/>
+              <Item key={item.id} img ={item.img} name={item.product_name} price={item.price} review={item.rating} count={item.count +" "+"Reviews"}/>
               ))}
             </div>
           </div>

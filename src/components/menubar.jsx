@@ -13,7 +13,7 @@ export default function Menubar(props){
         <header>
             <div className="header_container">
                 <Title/>
-                <Searchbar onChange={props.searchbarOnChange} classtype="top_searchbar searchbar"/>
+                <Searchbar id="top" onChange={props.searchbarOnChange} classtype="top_searchbar searchbar"/>
 
                 <div className="right">
                     <button className="cart_btn">
