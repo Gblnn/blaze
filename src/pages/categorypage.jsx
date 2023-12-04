@@ -13,7 +13,7 @@ export default function CategoryPage(){
         <div className="searchbar_container">
           <Searchbar class="lower_searchbar searchbar"/>
         </div>
-        <BrowseHeader text="Browse All" tag="promotional"/>
+        <BrowseHeader text="Browse All" tag=""/>
         <div className="wrapper">
             <div className="item_container">
             {data.map((item) => (
