@@ -26,9 +26,16 @@
 
 .title_logo{
     width: 2rem;
-    margin-right: 0.5rem;
+    margin-right: 0rem;
     /* fill: var(--clr); */
     fill: tomato;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.title_logo:hover{
+    background-color: var(--item-hover);
+
 }
 
 .title{
@@ -274,9 +281,15 @@
 .filters{
     display: flex;
     align-items: center;
-    /* border: 1px solid ; */
+
+    width: 5rem;
     gap: 1rem;
     margin-right: 1rem;
+}
+
+.filters p{
+    font-size: 1rem;
+    user-select: none;
 }
 
 .offer_tag{

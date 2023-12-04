@@ -57,8 +57,8 @@
     z-index: 10;
   }
   .svg{
-    width: 2rem;
-    fill:var(--clr);
+    width: 0.5rem;
+    /* fill:var(--clr); */
   }
   .art_svg{
     width:5rem;

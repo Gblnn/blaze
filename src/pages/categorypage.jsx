@@ -5,7 +5,7 @@ import Menubar from "../components/menubar";
 import Searchbar from "../components/searchbar";
 import {data} from '../productlist'
 
-export default function CategoryPage(props){
+export default function CategoryPage(){
     return(
         <>
         <Menubar/>
