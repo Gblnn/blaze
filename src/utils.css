@@ -304,7 +304,7 @@
     cursor: pointer;
 }
 
-p{
+.p{
     color: var(--clr);
 }
 
