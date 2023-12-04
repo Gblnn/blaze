@@ -8,6 +8,7 @@ import {data} from '../productlist'
 
 export default function CategoryPage(){
   const [search, setSearch] = useState('')
+  console.log(search)
     return(
         <>
         <Menubar searchbarOnChange={(e)=>setSearch(e.target.value)}/>
@@ -20,7 +21,7 @@ export default function CategoryPage(){
             <div className="item_container">
               
               {data.filter((item)=>{
-                return search.toLowerCase() === '' ? item : item.keywords.toLowerCase().includes(search)
+                return search.toLowerCase() === '' ? item : item.keywords.toLowerCase().includes(search.toLowerCase())
               }).map((item) => (
               <Item key={item.id} img ={item.img} name={item.product_name} price={item.price} review={item.rating} count={item.count}/>
               ))}
