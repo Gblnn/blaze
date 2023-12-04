@@ -331,7 +331,7 @@
     margin: 0.75rem;
     background-color: var(--clr-light);
     border-radius: 1rem;
-    transition: 0.25s;
+    transition: 0.3s;
     cursor: pointer;
 }
 

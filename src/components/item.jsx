@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
 import '../utils.css'
+import CategoryPage from '../pages/categorypage'
 
 export default function Item(props){
     return(
         <>
-        <Link to={props.item_page} onClick={()=>{console.log(props.name)}}>
+        <Link to={props.item_page} onClick={()=>{<CategoryPage heading=""/>}}>
         <div className="item_box">
             <div className="item_img_container">
               <img className='item_img' src={props.img}/>

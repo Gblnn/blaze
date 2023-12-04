@@ -6,14 +6,14 @@ import Title from './title'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-export default function Menubar(){
+export default function Menubar(props){
     const [show, setShow] = useState(false)
     return(
         <>
         <header>
             <div className="header_container">
                 <Title/>
-                <Searchbar classtype="top_searchbar searchbar"/>
+                <Searchbar onChange={props.searchbarOnChange} classtype="top_searchbar searchbar"/>
 
                 <div className="right">
                     <button className="cart_btn">
