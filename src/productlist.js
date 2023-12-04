@@ -65,7 +65,7 @@ export const data = [{
     "count" : "998"
   },
   {
-    "id": 9,
+    "id": 10,
     "img": "https://pics.computerbase.de/9/7/5/0/7-2a65152503cb54e4/1-1080.bfb7b19d.png",
     "product_name": "Framework Laptop",
     "price": "$6.77",
@@ -73,7 +73,7 @@ export const data = [{
     "count" : "998"
   },
   {
-    "id": 9,
+    "id": 11,
     "img": "https://hips.hearstapps.com/hmg-prod/images/best-touchscreen-laptops-1661789099.jpg",
     "product_name": "Microsoft Surface Studio Go",
     "price": "$6.77",
@@ -81,7 +81,7 @@ export const data = [{
     "count" : "998"
   },
   {
-    "id": 9,
+    "id": 12,
     "img": "https://cdn.mos.cms.futurecdn.net/aik6gEzw3HbqcTiypQVJE3-1200-80.jpg",
     "product_name": "Asus Zephyrus Z15",
     "price": "$6.77",

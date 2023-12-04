@@ -4,7 +4,7 @@ import '../utils.css'
 export default function Item(props){
     return(
         <>
-        <Link to={props.item_page} onClick={()=>{}}>
+        <Link to={props.item_page} onClick={()=>{console.log(props.name)}}>
         <div className="item_box">
             <div className="item_img_container">
               <img className='item_img' src={props.img}/>

@@ -4,7 +4,7 @@ export default function Searchbar(props){
 
     return(
         <>
-        <input className={props.class} type="text" placeholder="Search Items"/>
+        <input className={props.classtype} type="text" placeholder="Search Items"/>
         </>
     )
 }

@@ -17,7 +17,7 @@ export default function CategoryPage(){
         <div className="wrapper">
             <div className="item_container">
             {data.map((item) => (
-            <Item img ={item.img} name={item.product_name} price={item.price} review={item.rating} count={item.count}/>
+            <Item key={item.id} img ={item.img} name={item.product_name} price={item.price} review={item.rating} count={item.count}/>
             ))}
             </div>
           </div>

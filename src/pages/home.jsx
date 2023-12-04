@@ -11,7 +11,7 @@ export default function Home(){
         <Menubar/>
         <div className="sizedbox"></div>
         <div className="searchbar_container">
-          <Searchbar class="lower_searchbar searchbar"/>
+          <Searchbar classtype="lower_searchbar searchbar"/>
         </div>
         <main>
           <Heading text = "Discover" tag="Black Friday Sales"/>
