@@ -4,7 +4,6 @@ import Item from '../components/item'
 import Menubar from '../components/menubar'
 import Searchbar from '../components/searchbar'
 import Heading from '../components/heading'
-import CategoryPage from './categorypage'
 
 
 export default function Home(){
