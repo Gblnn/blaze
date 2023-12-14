@@ -7,7 +7,7 @@ export default function Item(props){
   // console.log(category)
     return(
         <>
-        <Link onClick={()=>{props.clickFunction}} to={props.item_page} >
+        <Link onClick={props.clickFunction} to={props.item_page} >
         <div className="item_box">
             <div className="item_img_container">
               <img className='item_img' src={props.img}/>
