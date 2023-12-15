@@ -3,7 +3,6 @@ import '../utils.css'
 import Item from '../components/item'
 import Menubar from '../components/menubar'
 import Searchbar from '../components/searchbar'
-import Heading from '../components/heading'
 import BrowsePage from '../pages/browsepage'
 import { useState } from 'react'
 import BrowseHeader from '../components/browseheader'
@@ -27,7 +26,7 @@ export default function CategoryPage(){
 
     return(
         <>
-        <Menubar/>
+        <Menubar searchbarOnChange={(e)=>setSearch(e.target.value)}/>
         {
           hide ? null : 
           <>
