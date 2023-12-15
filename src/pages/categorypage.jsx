@@ -31,7 +31,7 @@ export default function CategoryPage(){
           
           <div className="sizedbox"></div>
           <div className="searchbar_container">
-          <Searchbar id="lower" onChange={(e)=>{setSearch(e.target.value)}} classtype="lower_searchbar searchbar"/>
+          <Searchbar id="lower" onChange={(e)=>{setSearch(e.target.value);e===""?setHide(false):setHide(true)}} classtype="lower_searchbar searchbar"/>
           </div>
           <main>
           {/* <Heading text = "Featured" tag="50% Off Sales"/> */}
