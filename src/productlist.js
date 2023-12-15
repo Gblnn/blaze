@@ -163,5 +163,32 @@ export const data = [{
     "count" : "998",
     "keywords":"Smartphones Samsung Galaxy S23"
   },
+  {
+    "id": 20,
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-unselect-gallery-2-202207_FMT_WHH?wid=1280&hei=492&fmt=p-jpg&qlt=80&.v=1655249901705",
+    "product_name": "iPhone SE 2023",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Apple iPhones SE 2023"
+  },
+  {
+    "id": 21,
+    "img": "https://www.apple.com/v/iphone-13/j/images/meta/iphone-13_specs__bpr60apdzuaa_og.png?202309090704",
+    "product_name": "iPhone 13",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Apple iPhones 13"
+  },
+  {
+    "id": 22,
+    "img": "https://cdn.mos.cms.futurecdn.net/8y3YrQs7NNhZ3mYZKonQcW.jpg",
+    "product_name": "Nothing Phone",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Nothing Phones"
+  },
 
 ]

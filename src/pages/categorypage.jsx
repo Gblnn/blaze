@@ -11,7 +11,7 @@ import {data} from '../productlist'
 export default function CategoryPage(){
 
   const [show, setShow] = useState(false)
-  const [hide, setHide] = useState(false)
+  const [hide, setHide] = useState(true)
 
   const handleClick = () => {
     setShow(true);
