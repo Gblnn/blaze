@@ -26,21 +26,23 @@ export default function CategoryPage(){
 
     return(
         <>
-        <Menubar searchbarOnChange={(e)=>setSearch(e.target.value)}/>
-        {
-          hide ? null : 
+        <Menubar searchbarOnChange={(e)=>{setSearch(e.target.value);e===""?setHide(false):setHide(true)}}/> 
           <>
           
           <div className="sizedbox"></div>
           <div className="searchbar_container">
-          <Searchbar id="lower" onChange={(e)=>setSearch(e.target.value)} classtype="lower_searchbar searchbar"/>
+          <Searchbar id="lower" onChange={(e)=>{setSearch(e.target.value)}} classtype="lower_searchbar searchbar"/>
           </div>
           <main>
           {/* <Heading text = "Featured" tag="50% Off Sales"/> */}
           <BrowseHeader nav = {false} click={()=>{toggle?setToggle(false):setToggle(true); toggle?setCategory('Phones'):setCategory('Laptops')}} text="Browse All" tag="50% Off" btn_text={category}/>
           
-          <div className='container'>
-          <div className="item_container">
+
+          {
+            hide ? null :
+            <>
+            <div className='container'>
+            <div className="item_container">
             <Item img="/laptops.png" name = "Laptops" offer = "70% Off" clickFunction={()=>{}} item_page="/browse"/>  
             <Item img="/smartphones.jpg" name = "Smartphones" offer = "50% Off" item_page=""/>  
             <Item img="/shoes.jpg" name = "Shoes" offer = "40% Off"/>  
@@ -52,6 +54,11 @@ export default function CategoryPage(){
           </div>
           </div>
           <div className="empty"></div>
+            </>
+            
+          }
+          
+          
           <div className='container'>
             <div className="item_container">
                 {data.filter((item)=>{
@@ -81,11 +88,7 @@ export default function CategoryPage(){
           </main>
           </>
           
-        }
         
-          {
-            show ? <BrowsePage/> : null
-          }
         
         <footer></footer>
         <div className="empty"></div>
