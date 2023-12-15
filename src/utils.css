@@ -12,7 +12,7 @@
 
 .container{
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     justify-content: center;
 }
 
@@ -258,7 +258,7 @@
 }
 
 .item_container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     width: 98%;
     justify-content: flex-start;
@@ -486,7 +486,7 @@
 
     .item_container{
         justify-content: flex-start;
-        width: 95%;
+        width: 91%;
     }
     .wrapper{
         margin-left: 2.5rem;
