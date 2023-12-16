@@ -170,7 +170,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Apple iPhones SE 2023"
+    "keywords":"Apple iPhones SE 2023 Smartphones"
   },
   {
     "id": 21,
@@ -179,7 +179,7 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Apple iPhones 13"
+    "keywords":"Apple iPhones 13 Smartphones"
   },
   {
     "id": 22,
@@ -188,7 +188,34 @@ export const data = [{
     "price": "$6.77",
     "rating": 4.2,
     "count" : "998",
-    "keywords":"Nothing Phones"
+    "keywords":"Nothing Phones Smartphones"
+  },
+  {
+    "id": 23,
+    "img": "https://cdn.images.express.co.uk/img/dynamic/59/940x/secondary/OnePlus-Open-cameras-5028018.jpg?r=1698231920716",
+    "product_name": "Oneplus Open",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Oneplus Open Phones Smartphones"
+  },
+  {
+    "id": 24,
+    "img": "https://www.smartprix.com/bytes/wp-content/uploads/2023/04/Samsung-Galaxy-Z-fold-5-smartprix.com-Exclusive.jpg",
+    "product_name": "Samsung Z Fold",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Samsung Z Fold Phones Smartphones"
+  },
+  {
+    "id": 25,
+    "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Sony-Xperia-1-VI-concept-rumors-drdNBC.jpg",
+    "product_name": "Sony Xperia 1",
+    "price": "$6.77",
+    "rating": 4.2,
+    "count" : "998",
+    "keywords":"Sony Xperia 1 Phones Smartphones"
   },
 
 ]
